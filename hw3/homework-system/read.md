@@ -11,6 +11,8 @@ homework-system
         │
         │─student.sh  学生模块
         │
+        │─AdminInfo  管理员信息
+        │
         ├─Lecture
         │  └─Lecture ID 课程ID
         │     ├─Homework ID 作业ID
@@ -40,4 +42,3 @@ homework-system
                 ├─TeacherInfo 教师信息
                 │
                 └─LectureInfo 所授课程
-        
