@@ -29,7 +29,7 @@ homework-system
         │     │
         │     ├─TeacherInfo 教师信息
         │     │
-        │     └─LectureInfoList 学生列表
+        │     └─LectureName 课程名称
         |
         ├─Student
         │   └─Student ID 学号
@@ -39,6 +39,9 @@ homework-system
         │
         └─Teacher
             └─Teacher ID  教师ID
-                ├─TeacherInfo 教师信息
+                ├─TeacherName 教师姓名
+                │
+                ├─TeacherPwd 教师密码
                 │
                 └─LectureInfo 所授课程
+                    └─Lecture ID 课程ID
