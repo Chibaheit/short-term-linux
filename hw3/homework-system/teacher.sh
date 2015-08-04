@@ -412,7 +412,7 @@ function listFeature() {
     esac
   done
 }
-# Check the admin
+# Check the teacher
 teacherCheck
 # Show the feature
 listFeature
