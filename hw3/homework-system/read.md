@@ -20,11 +20,6 @@ homework-system
         │     │   │
         │     │   └─Student ID 学生所交作业文件
         │     │
-        │     ├─Experiment ID 作业ID
-        │     │   ├─ExperimentInfo 实验内容
-        │     │   │
-        │     │   └─Student ID 学生所交实验文件
-        │     │
         │     ├─StudentList 学生列表
         │     │
         │     ├─TeacherInfo 教师信息
