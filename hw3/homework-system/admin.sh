@@ -116,6 +116,7 @@ function checkLecture() {
         read -p "> Please input the teacher's ID: " teacherID
         echo $lectureName > "lecture/$lectureID/name"
         echo $teacherID > "lecture/$lectureID/teacher"
+        mkdir "lecture/$lectureID/homework"
         mkdir "lecture/$lectureID/student"
         ;;
       1) # 1: Modify a lecture

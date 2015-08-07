@@ -141,6 +141,7 @@ function checkLecture() {
         fi
         mkdir "lecture/$lectureID"
         mkdir "lecture/$lectureID/homework"
+        mkdir "lecture/$lectureID/student"
         read -p "> Please input the lecture's name: " lectureName
         echo $lectureName > "lecture/$lectureID/name"
         echo $readID > "lecture/$lectureID/teacher"
@@ -190,12 +191,13 @@ function checkLecture() {
         rm -rf "lecture/$lectureID"
         ;;
       3) # 3: List a lecture
-        read -p "> Please input the lecture's ID: " teacherID
+        read -p "> Please input the lecture's ID: " lectureID
         if [ ! -e "lecture/$lectureID" ]; then
           echo "ERROR: "
           echo "    The lecture doesn't exist"
           continue
         fi
+        echo "$lectureID"
         read lectureName < "lecture/$lectureID/name"
         read teacherName < "teacher/$readID/name"
         echo "Lecture Name: $lectureName"
